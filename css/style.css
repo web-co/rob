@@ -724,7 +724,23 @@ body{
 	.main_menu_top ul {
 		width: 100%;
 	}
-	
+	.link_block a img {
+		width: 100%;
+	}
+	.text_logo h1 {
+		font-size: 18px;
+		margin-top: 11px;
+	}
+	.video_text_1 {
+		margin-bottom: 0;
+	}
+	.video_text_2 {
+		margin-top: 0;
+	}
+	iframe{
+		display: block;
+		height: 200px;
+	}
 }
 @media all and (max-width : 460px){
 	.video_img {

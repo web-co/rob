@@ -741,6 +741,12 @@ body{
 		display: block;
 		height: 200px;
 	}
+	.popular_links>div:nth-child(3){
+		display: none;
+	}
+	.link_block {
+		width: 50%;
+	}
 }
 @media all and (max-width : 460px){
 	.video_img {
@@ -753,8 +759,6 @@ body{
 		font-size: 22px;
 	}
 	.link_block {
-		float: none;
-		width: 100%;
 		margin-bottom: 15px;
 	}
 	.link_block a {

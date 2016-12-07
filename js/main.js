@@ -1,10 +1,9 @@
 $(document).ready(function(){
-	
+	//mobile menu
 	$(".tcon-menu--xcross").on('click', function(){
 	  $(".main_menu_top").toggleClass('visible');
 	  $('body').toggleClass('fixed');
   });
-  
   $(document).mouseup(function (e){ 
         var div = $('.header_nav'); 
         if (!div.is(e.target) 
@@ -15,5 +14,10 @@ $(document).ready(function(){
         }
     });
 	
+	//product carousel
+		$("#pikame").PikaChoose({
+			carousel:true, 
+			carouselVertical:true,
+			nav:false
+		});
 });
-

@@ -20,4 +20,6 @@ $(document).ready(function(){
 			carouselVertical:true,
 			nav:false
 		});
+		
+		$('a[data-rel^=lightcase]').lightcase();
 });
